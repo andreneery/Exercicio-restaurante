@@ -1,0 +1,299 @@
+body {
+    font-family: 'Estonia', cursive;
+    background: #262324;
+    width: 100%
+}
+
+
+header {
+    background: linear-gradient(#000000, #262324);
+    padding: 2.5% 0;
+    width: 100%;
+}
+
+.caixa { 
+    width: 100%;
+    position: relative;
+    margin: 1.2em auto;
+}
+
+
+.logo {
+    display: inline;
+    width: 10%;
+    float: left;
+    padding: 0 0 0 2%;
+}
+
+.titulo-cabecalho {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 0 0 0 ;
+    font-size: 30px;
+    margin-right: 5%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(#262324, #730202);
+    color: #ffffff;
+    width: 100%;
+}
+
+footer img {
+    width: 150px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+}
+
+/* CONFIGURAÇÃO DE CONTEUDO */
+.container{
+    width: 100%;
+    display: inline-block;
+}
+
+.container h1 {
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 0;
+
+}
+/* MENU LATERAL */
+
+nav {
+    width: 20%;
+    height: 100vh;
+    background: none;
+    vertical-align: top;
+    float: left;
+}
+
+nav li {
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #19c73f;
+    text-decoration: underline;
+}
+
+/* PAGINA INICIAL */   
+
+.conteudo { 
+    margin-left: 250px;
+}
+
+.conteudo h1 { 
+    text-align: center;
+}
+
+.banner {
+    display: inline-block;
+    width: 70%;
+    border-radius: 10px;   
+    margin-left: 100px;
+  
+}
+
+.catalogo {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 70%;
+    color: #ffffff;
+}
+.catalogo li {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 90px auto;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+.catalogo li:hover {
+    border-color: #c78c19;
+}
+
+.catalogo li h2:hover {
+    font-size: 35px;
+}
+
+
+.catalogo li:active {
+    border-color: #088c19;
+   
+}
+
+.catalogo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px  0 3px 0;
+}
+
+.catalogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.catalogo-descricao {
+    font-size: 18px;
+
+}
+
+.catalogo-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+
+/* PAGINA DO SUSHI e SUSHI PREMIUM */
+
+.cadarpio {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 70%;
+    color: #ffffff;
+    text-align: center;
+}
+.cadarpio li {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 2% 1%;
+    padding: 90px auto;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+.cadarpio li:hover {
+    border-color: #c78c19;
+}
+
+.cadarpio li h2:hover {
+    font-size: 35px;
+}
+
+
+.cadarpio li:active {
+    border-color: #088c19;
+   
+}
+
+.cadarpio h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px  0 3px 0;
+}
+
+.cadarpio img {
+    width: 100%;
+    height: 100%;
+}
+
+.cadarpio-descricao {
+    font-size: 18px;
+
+}
+
+.-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+
+/* QUEM SOMOS */
+
+.texto {
+    text-align: justify;
+    width: 70%;
+    color: aliceblue;
+    font-size: 1em;
+    padding: 0 5% 0 0 ;
+    line-height: 1.5;
+    margin: 1em auto;
+}
+
+.mapa {
+    width: 80%;
+    padding: 3em 0;
+    text-align: center;
+
+}
+
+/* CONTATO */
+
+form {
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+
+}
+
+form label, legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 2% auto;
+    padding: 10px 25px;
+    width: 50%;
+    text-align: center;
+
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #730202;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer ;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+
+}
