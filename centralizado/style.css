@@ -73,11 +73,12 @@ footer img {
 /* MENU LATERAL */
 
 nav {
-    width: 250px;
+    width: 246px;
     height: 100vh;
-    background: none;
     vertical-align: top;
     float: left;
+    padding-top: 1em;
+    background: linear-gradient( #262324, #8E7976, #262324);
 }
 
 nav li {
