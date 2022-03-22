@@ -1,0 +1,57 @@
+.cadarpio {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+    color: var(--letters-color);
+    text-align: center;
+}
+.cadarpio li {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 2% 1%;
+    padding: 90px auto;
+    box-sizing: border-box;
+    border: 2px solid var(--black-color);
+    border-radius: 10px;
+    border-color: var(--letters-color);
+}
+
+.cadarpio li:hover {
+    border-color: var(--orange-color);
+}
+
+.cadarpio li h2:hover {
+    font-size: 35px;
+}
+
+
+.cadarpio li:active {
+    border-color: var(--green-color);
+   
+}
+
+.cadarpio h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px  0 3px 0;
+}
+
+.cadarpio img {
+    width: 100%;
+    height: 100%;
+}
+
+.cadarpio-descricao {
+    font-size: 18px;
+
+}
+
+.-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+

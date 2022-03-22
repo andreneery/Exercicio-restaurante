@@ -1,0 +1,70 @@
+.conteudo { 
+    margin-left: 250px;
+}
+
+.conteudo h1 { 
+    text-align: center;
+}
+
+.banner {
+    display: inline-block;
+    width: 690px;
+    border-radius: 10px;   
+  
+}
+
+.catalogo {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+    color: var(--letters-color);
+}
+.catalogo li {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 90px auto;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    border-color: var(--letters-color);
+}
+
+.catalogo li:hover {
+    border-color: var(--orange-color);
+}
+
+.catalogo li h2:hover {
+    font-size: 35px;
+}
+
+
+.catalogo li:active {
+    border-color: var(--green-color);
+   
+}
+
+.catalogo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px  0 3px 0;
+}
+
+.catalogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.catalogo-descricao {
+    font-size: 18px;
+
+}
+
+.catalogo-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}

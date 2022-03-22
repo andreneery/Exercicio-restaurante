@@ -1,0 +1,16 @@
+.texto {
+    text-align: justify;
+    width: 70%;
+    color: var(--letters-color);
+    font-size: 1em;
+    padding: 0 5% 0 0 ;
+    line-height: 1.5;
+    margin: 1em auto;
+}
+
+.mapa {
+    width: 80%;
+    padding: 3em 0;
+    text-align: center;
+
+}
